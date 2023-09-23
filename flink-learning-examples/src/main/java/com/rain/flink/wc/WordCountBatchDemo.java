@@ -15,7 +15,7 @@ public class WordCountBatchDemo {
         ExecutionEnvironment executionEnvironment = ExecutionEnvironment.getExecutionEnvironment();
 
         // TODO 2. 读取数据：从文件中读取
-        DataSource<String> stringDataSource = executionEnvironment.readTextFile("word.txt");
+        DataSource<String> stringDataSource = executionEnvironment.readTextFile("/Users/zhangyuchen/IdeaProjects/flink-learning/flink-learning-examples/input/word.txt");
 
         // TODO 3. 切分，转换 （word, 1）
         FlatMapOperator<String, Tuple2<String, Integer>> stringTuple2FlatMapOperator = stringDataSource.flatMap(new FlatMapFunction<String, Tuple2<String, Integer>>() {

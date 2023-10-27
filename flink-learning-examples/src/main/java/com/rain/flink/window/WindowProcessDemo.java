@@ -77,3 +77,25 @@ public class WindowProcessDemo {
         env.execute();
     }
 }
+
+/*
+*
+* 输入
+*
+*
+s1,1,1
+s1,2,2
+s1,3,3
+s1,4,4
+s1,5,5
+s1,6,6
+s1,7,7
+*
+*
+* 输出
+*
+*
+key=s1的窗口[2023-10-27 10:49:30.000,2023-10-27 10:49:40.000)包含5条数据===>[WaterSensor{id='s1', ts=1, vc=1}, WaterSensor{id='s1', ts=2, vc=2}, WaterSensor{id='s1', ts=3, vc=3}, WaterSensor{id='s1', ts=4, vc=4}, WaterSensor{id='s1', ts=5, vc=5}]
+key=s1的窗口[2023-10-27 10:49:40.000,2023-10-27 10:49:50.000)包含2条数据===>[WaterSensor{id='s1', ts=6, vc=6}, WaterSensor{id='s1', ts=7, vc=7}]
+*
+* */

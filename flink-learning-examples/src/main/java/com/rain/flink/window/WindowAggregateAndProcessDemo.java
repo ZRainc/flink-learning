@@ -94,3 +94,32 @@ public class WindowAggregateAndProcessDemo {
 }
 
 
+/*
+*
+* 输入
+*
+s1,1,1
+s1,2,2
+s1,3,3
+s1,4,4
+s1,5,5
+s1,6,6
+s1,7,7
+*
+* 输出
+*
+创建累加器
+调用add方法,value=WaterSensor{id='s1', ts=1, vc=1}
+调用add方法,value=WaterSensor{id='s1', ts=2, vc=2}
+调用add方法,value=WaterSensor{id='s1', ts=3, vc=3}
+调用add方法,value=WaterSensor{id='s1', ts=4, vc=4}
+调用getResult方法
+key=s1的窗口[2023-10-27 10:57:10.000,2023-10-27 10:57:20.000)包含1条数据===>[10]
+创建累加器
+调用add方法,value=WaterSensor{id='s1', ts=5, vc=5}
+调用add方法,value=WaterSensor{id='s1', ts=6, vc=6}
+调用add方法,value=WaterSensor{id='s1', ts=7, vc=7}
+调用getResult方法
+key=s1的窗口[2023-10-27 10:57:20.000,2023-10-27 10:57:30.000)包含1条数据===>[18]
+*
+* */

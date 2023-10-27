@@ -86,3 +86,29 @@ public class WindowAggregateDemo {
         env.execute();
     }
 }
+
+/*
+*
+*输入
+*
+s1,1,1
+s1,2,2
+s1,3,3
+s1,4,4
+*
+*
+*输出
+*
+创建累加器
+调用add方法,value=WaterSensor{id='s1', ts=1, vc=1}
+调用add方法,value=WaterSensor{id='s1', ts=2, vc=2}
+调用getResult方法
+3
+创建累加器
+调用add方法,value=WaterSensor{id='s1', ts=3, vc=3}
+调用add方法,value=WaterSensor{id='s1', ts=4, vc=4}
+调用getResult方法
+7
+*
+*
+* */

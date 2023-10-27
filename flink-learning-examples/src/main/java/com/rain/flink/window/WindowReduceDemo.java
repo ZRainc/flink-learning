@@ -47,3 +47,29 @@ public class WindowReduceDemo {
         env.execute();
     }
 }
+/*
+*
+* 输入
+*
+s1,1,1
+s1,2,2
+s1,3,3
+s1,4,4
+s1,5,5
+s1,6,6
+*
+*
+* 输出
+*
+*
+调用reduce方法，value1=WaterSensor{id='s1', ts=1, vc=1},value2=WaterSensor{id='s1', ts=2, vc=2}
+调用reduce方法，value1=WaterSensor{id='s1', ts=2, vc=3},value2=WaterSensor{id='s1', ts=3, vc=3}
+WaterSensor{id='s1', ts=3, vc=6}
+调用reduce方法，value1=WaterSensor{id='s1', ts=4, vc=4},value2=WaterSensor{id='s1', ts=5, vc=5}
+调用reduce方法，value1=WaterSensor{id='s1', ts=5, vc=9},value2=WaterSensor{id='s1', ts=6, vc=6}
+WaterSensor{id='s1', ts=6, vc=15}
+*
+*
+* */
+
+

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.flink:flink-connector-jdbc:1.17-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-jdbc/1.17-SNAPSHOT/flink-connector-jdbc-1.17-20230109.003314-120.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-jdbc/1.17-SNAPSHOT/flink-connector-jdbc-1.17-20230109.003314-120-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/flink/flink-connector-jdbc/1.17-SNAPSHOT/flink-connector-jdbc-1.17-20230109.003314-120-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
